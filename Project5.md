@@ -47,9 +47,9 @@ Output:
 ![Change bind - address](https://user-images.githubusercontent.com/10111342/128235060-831dd2ab-1179-42ff-b3d7-61c5e9da6533.png)
 
 ### Step6: Install mysql db on the server
-sudo mysql_secure_installation  - -ensure to configure a password and click y for all remaining questions
+sudo mysql_secure_installation;  - -ensure to configure a password and click y for all remaining questions
 
-sudo mysql   --to connect to the Database
+sudo mysql;   --to connect to the Database
 
 Output:
 
@@ -94,7 +94,12 @@ Note: As you can see from the client server,  remote_user was able to connect to
 
 ### Step11: Remote_user successfully connected to remote MySQL server and can perform  SQL queries.
 
-show databases
+SELECT user();
+
+![Remote user](https://user-images.githubusercontent.com/10111342/128237479-49e6f361-92df-4b87-bd3b-051245679aa3.png)
+
+
+show databases;
 
 ![remote user can view the DB 10](https://user-images.githubusercontent.com/10111342/128236721-1a638fc8-2631-49d7-88ab-7602ed801dcf.png)
 
