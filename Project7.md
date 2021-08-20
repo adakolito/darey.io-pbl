@@ -191,4 +191,9 @@ Open the website in your browser http://<Web-Server-Public-IP-Address-or-Public-
 
 ![Login Page](https://user-images.githubusercontent.com/10111342/129950697-bfd73fe2-dafd-4cbe-998c-d109f16919f5.png)
 
+ Using admin usernane and admin password you can access the Tooling Page as show below:
+  
+ ![Tooling page](https://user-images.githubusercontent.com/10111342/130269769-90ab6075-0cd3-4f22-b66f-0c1a02cc327a.png)
+
+
    
