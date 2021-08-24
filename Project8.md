@@ -45,7 +45,7 @@ sudo a2enmod lbmethod_bytraffic
 #Restart apache2 service
 sudo systemctl restart apache2
 ```
-**Make Apache is running**
+**Make sure Apache is running**
 
 `sudo systemctl status apache2`
 
@@ -117,7 +117,7 @@ sudo vi /etc/hosts
 
 ![DNS Load balancer config 6](https://user-images.githubusercontent.com/10111342/130516737-dc665d99-7425-4513-87a3-3ea972b0b35c.png)
 
-*Curl web1 and it I can see the html file from the local host
+*Curl web1 and I can see the html file from the local host
 
 ![Curl web1 7](https://user-images.githubusercontent.com/10111342/130517065-7ff204a3-a030-4ea3-87f9-bf41dae706e8.png)
 
