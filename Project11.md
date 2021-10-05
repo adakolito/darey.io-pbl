@@ -154,7 +154,7 @@ Pull Request
 
 ![Pull Request 15](https://user-images.githubusercontent.com/10111342/136029163-aa8c8ab2-06a7-4b2a-a446-c5f4d12ba182.png)
 
-* Once mergeed into master branch, the github webhook triggers a build in Jenkins and archives the build files
+* Once merged into master branch, the github webhook triggers a build in Jenkins and archives the build files
 
 
 ![Jenkins build 15](https://user-images.githubusercontent.com/10111342/136030051-2dfbfa1d-9cee-4c10-9d34-aef6769310b2.png)
