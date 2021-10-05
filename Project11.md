@@ -136,25 +136,50 @@ Jenkins build
 ```
 ## Update Git with the latest code 
 
-* Commit the changes to the feature brancha and create a pull request (PR) for the branch to be merged into the master branch
+* Commit the changes to the feature branch and create a pull request (PR) for the branch to be merged into the master branch
+
+Add and commit all files
+![Git Add 12](https://user-images.githubusercontent.com/10111342/136029868-4037b653-d3ad-451c-a447-aa0243417f8e.png)
 
 
 
+![branch merged to main 15](https://user-images.githubusercontent.com/10111342/136028698-8850a899-c1e3-4b9d-8d16-ce5b3a2cf448.png)
+
+Files pushed to Git repo
+
+![Files pushe to Github 13](https://user-images.githubusercontent.com/10111342/136029425-61a3ba72-3a8c-4ce3-baa3-db074cd74f86.png)
+
+Pull Request
+![Pull Request 14](https://user-images.githubusercontent.com/10111342/136028955-0cfecc87-5813-49ea-9e4b-a08c1472fc2c.png)
+
+![Pull Request 15](https://user-images.githubusercontent.com/10111342/136029163-aa8c8ab2-06a7-4b2a-a446-c5f4d12ba182.png)
+
+* Once mergeed into master branch, the github webhook triggers a build in Jenkins and archives the build files
 
 
+![Jenkins build 15](https://user-images.githubusercontent.com/10111342/136030051-2dfbfa1d-9cee-4c10-9d34-aef6769310b2.png)
+
+![Jenkins archive 16](https://user-images.githubusercontent.com/10111342/136030221-b1821faf-81a9-48aa-9ea0-49144503a130.png)
 
 
+## Run first Ansible test
+***
+
+* Execute the common.yml playbook
+```
+ansible-playbook -i inventory/dev.yml playbooks/common.yml
+
+```
+![Ansible Playbook Ran 17](https://user-images.githubusercontent.com/10111342/136030814-1fe26679-b85b-4500-8431-ac160309ede4.png)
+
+* Wireshark utility is now installed on the target servers
+
+![WireShark on Web1 17](https://user-images.githubusercontent.com/10111342/136031064-704d20d8-d07d-460c-8fe5-7a13e2fa6f3b.png)
+
+Updated Summary Architecture:
+***
 
 
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/10111342/136032117-733a569d-f747-4afd-922f-248bade98b7c.png)
 
       
