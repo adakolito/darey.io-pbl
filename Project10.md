@@ -17,7 +17,7 @@ Architecture:
 
  Note: All ports are open for practice purposes only
 
-- Update /etc/hosts file for local DNS settings with web servers' names web1 and web2 and their IP addresses
+- Update /etc/hosts file for local DNS settings with web servers' names `web1` and `web2` and their IP addresses
 
 ![EtcHosts](https://user-images.githubusercontent.com/10111342/134210296-5e13416b-27ca-43a8-ad66-55c55bdfcd38.png)
 
