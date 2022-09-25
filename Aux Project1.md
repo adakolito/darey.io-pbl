@@ -7,7 +7,7 @@ Create the project folder called Shell
 /home/ubuntu/projects/Shell
 
 Create a csv file name - names.csv
-      
+
 Touch names.csv
 
 Output:
