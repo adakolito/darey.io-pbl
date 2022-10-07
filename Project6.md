@@ -301,5 +301,6 @@ sudo mv /etc/httpd/conf.d/welcome.conf /etc/httpd/conf.d/welcome.conf_backup
 ![Wordpress Page 26](https://user-images.githubusercontent.com/10111342/128552165-34802411-3015-4a06-ab3a-8c4b8c844e48.png)
 
 
-
+Revised- 10/7/2022
+Mr Kole
 
