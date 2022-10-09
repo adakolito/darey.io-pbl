@@ -1,4 +1,7 @@
 ## DEVOPS TOOLING WEBSITE SOLUTION
+
+```Web solution for a DevOps team using LAMP stack with remote Database and NFS servers.
+
 The goal of this project is to Implement a tooling website solution which makes access to DevOps tools within the corporate infrastructure easily accessible.
 In this project I will implement a solution that consists of following components:
 
@@ -14,6 +17,7 @@ Storage Server: Red Hat Enterprise Linux 8 + NFS Server
 Programming Language: PHP
 
 Code Repository: GitHub
+```
 
 ###Step 1 – Prepare NFS Server
 
